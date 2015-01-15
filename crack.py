@@ -5,7 +5,7 @@ from sys import argv
 from orig import strxor
 
 #Load dictionary for validation
-with open('/usr/share/dict/cracklib-small', 'r') as fp:
+with open('cracklib-small', 'r') as fp:
     wordlist = fp.read().split('\n')
 
 
