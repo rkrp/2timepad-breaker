@@ -6,7 +6,7 @@ from orig import strxor
 
 #Load dictionary for validation
 with open('cracklib-small', 'r') as fp:
-    wordlist = fp.read().split('\n')
+    wordlist = set(fp.read().split('\n'))
 
 
 def isprintable(inp):
